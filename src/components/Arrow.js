@@ -1,5 +1,4 @@
 /** @jsx jsx */
-import React from 'react'
 import { css, jsx } from '@emotion/core'
 import leftArrow from '../img/left-arrow.svg'
 import rightArrow from '../img/right-arrow.svg'
@@ -15,7 +14,7 @@ const Arrow = ({ direction, handleClick }) => (
       height: 50px;
       width: 50px;
       justify-content: center;
-      background: white;
+
       border-radius: 50%;
       cursor: pointer;
       align-items: center;

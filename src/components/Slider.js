@@ -1,10 +1,10 @@
 /** @jsx jsx */
-import React, { useState, useEffect, useRef } from 'react'
 import { css, jsx } from '@emotion/core'
-import SliderContent from './SliderContent'
-import Slide from './Slide'
+import { useEffect, useRef, useState } from 'react'
 import Arrow from './Arrow'
-import Dots from './Dots'
+import Slide from './Slide'
+import SliderContent from './SliderContent'
+// import Dots from './Dots'
 
 const getWidth = () => window.innerWidth
 
@@ -111,7 +111,7 @@ const Slider = props => {
       <Arrow direction="left" handleClick={prevSlide} />
       <Arrow direction="right" handleClick={nextSlide} />
 
-      <Dots slides={slides} activeSlide={activeSlide} />
+      {/* <Dots slides={slides} activeSlide={activeSlide} /> */}
     </div>
   )
 }
