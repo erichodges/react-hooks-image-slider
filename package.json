@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --config webpack.config.js --open",
     "build": "webpack --config webpack.config.js"
   },
-  "author": "Daniel Zuzevich",
+  "author": "Daniel Zuzevich & Eric Hodges",
   "license": "MIT",
   "dependencies": {
     "@emotion/core": "^10.0.10",
