@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core'
 import { useEffect, useRef, useState } from 'react'
-import Arrow from './Arrow'
 import Slide from './Slide'
 import SliderContent from './SliderContent'
 // import Dots from './Dots'
@@ -124,12 +123,19 @@ const Slider = props => {
         ))}
       </SliderContent>
 
-      <Arrow direction="left" handleClick={prevSlide} />
-      <Arrow direction="right" handleClick={nextSlide} />
-
-      {/* <Dots slides={slides} activeSlide={activeSlide} /> */}
+      {/* {!props.autoplay && (
+        <>
+          <Arrow direction="left" handleClick={prevSlide} />
+          <Arrow direction="right" handleClick={nextSlide} />
+        </>
+      )} */}
     </div>
   )
+}
+
+Slider.defaultProps = {
+  slides: [],
+  autoPlay: null
 }
 
 const SliderCSS = css`
