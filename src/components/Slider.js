@@ -123,12 +123,12 @@ const Slider = props => {
         ))}
       </SliderContent>
 
-      {!props.autoPlay && (
+      {/* {!props.autoPlay && (
         <>
           <Arrow direction="left" handleClick={prevSlide} />
           <Arrow direction="right" handleClick={nextSlide} />
         </>
-      )}
+      )} */}
     </div>
   )
 }
