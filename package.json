@@ -1,7 +1,7 @@
 {
   "name": "react-hooks-image-slider-viewer",
   "version": "3.0.0",
-  "description": "Image Slider/Viewer built with React Hooks. All the cool kids are doing it.",
+  "description": "Image Slider/Viewer test",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js --open",
